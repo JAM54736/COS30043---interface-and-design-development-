@@ -1,0 +1,152 @@
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: #fff;
+    }
+       
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #4f4f4f !important;
+    }         
+  }
+  
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #fff;
+  }
+  
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+  }
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 450px) {
+    #intro {
+      height: 950px !important;
+    }
+    
+  }
+  
+  @media (min-width: 550px) and (max-width: 750px) {
+    #intro {
+      height: 1100px !important;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 990px) {
+    #intro {
+      height: 600px !important;
+    }
+    
+  }
+  
+  .display-1 {
+    font-weight: 500 !important;
+    letter-spacing: 40px;
+  }
+  
+  @media (min-width: 1600px) {
+    .display-1 {
+      font-size: 10rem;
+    }
+  }
+/* Custom dark transparent navbar background */
+.navbar.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* dark transparent background */
+  backdrop-filter: blur(5px); 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; /* White text for links */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+
+
+/*Carosel slide height adjustment*/
+#textCarouselSection {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+#textCarousel .carousel-item blockquote {
+  font-size: 1.5rem;
+  color: #ffffff; 
+  padding: 20px;
+}
+
+
+.bg-section {
+  background-color: #f8f9fa; 
+}
+
+
+/*heading*/
+.roman-fonts{
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+/*paragraph*/
+.roman-fonts-lk{
+  font-family: Verdana, sans-serif;
+}
+.roman-fonts-hk{
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+
+
+/*TABLE */
+@media (max-width: 768px) {
+  .form-check {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .form-check label {
+      margin-bottom: 5px;
+  }
+  .d-flex {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .ps-1 {
+      padding-left: 10px;
+  }
+  .pe-5 {
+      padding-right: 15px;
+  }
+  .pb-3 {
+      padding-bottom: 10px;
+  }
+}
+
+
+footer {
+  font-size: 0.8rem;
+  font-family: 'Times New Roman', serif;
+}
